@@ -44,7 +44,7 @@
                     <div>
                     <div class="card">
                     <br>
-                    <h5> Id: {{$posts ->id}} </h5>
+                    <h5> Id: {{$posts ->post_id}} </h5>
                    <h5> {{$posts ->post}}</h5>
                     <h5> Comments :: </h5>
                     </div>

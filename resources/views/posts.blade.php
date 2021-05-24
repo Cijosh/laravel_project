@@ -45,7 +45,7 @@
                 <div>
                   @foreach($posts as $post)
                     <div class="card">
-                    <h2>Post ID:  {{$post ->id}} </h2> 
+                    <h2>Post ID:  {{$post ->post_id}} </h2> 
                     <h5> {{$post ->post}}</h5>
                     <h5> created @ : {{$post ->created_at}}</h5>
                     </div>
